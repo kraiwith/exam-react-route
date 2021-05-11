@@ -1,0 +1,19 @@
+@import './variables';
+
+ul.App-Route {
+    list-style: none;
+    display: flex;
+
+    li a {
+        padding: 0.25rem 0.5rem;
+        color: #ffffff;
+
+        &:hover {
+            color: #5664e9;
+        }
+
+        &.active {
+            background-image: linear-gradient(to right, #599ce9, #e955bc, #599ce9);
+        }
+    }
+}

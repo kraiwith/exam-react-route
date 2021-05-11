@@ -1,0 +1,17 @@
+ul.Profile-Route {
+    list-style: none;
+    display: flex;
+
+    li a {
+        padding: 0.25rem 0.5rem;
+        color: #ffffff;
+
+        &:hover {
+            color: #5664e9;
+        }
+
+        &.active {
+            background-image: linear-gradient(to right, #f0d355, #48df98, #f0d355);
+        }
+    }
+}
